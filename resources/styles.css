@@ -57,12 +57,12 @@ nav li {
 main {
     width: 1200px;
     margin: 0 auto;
+    position: relative;
+    top: 70px;
 }
 
 #banner-container {
     display: inline-flex;
-    position: relative;
-    top: 70px;
     height: 700px;
     width: 100%;
     background-image: url("./images/img-mission-background.jpg");
@@ -82,4 +82,17 @@ main {
 
 #banner h2 {
     margin-bottom: .5em;
+}
+
+#month-tea {
+    width: 1000px;
+    margin: 3em auto 0 auto;
+}
+
+#month-tea h2 {
+    margin-bottom: .75em;
+}
+
+#month-tea h4 {
+    margin-bottom: .75em;
 }
