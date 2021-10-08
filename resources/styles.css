@@ -52,12 +52,32 @@ nav li {
     padding: .5rem;
 }
 
+main {
+    width: 1200px;
+    margin: 0 auto;
+}
+
 #banner-container {
     display: inline-flex;
+    position: relative;
+    top: 70px;
     height: 700px;
-    width: 1200px;
-    background-image: url(".\resources\images\img-mission-background.jpg");
+    width: 100%;
+    background-image: url("./images/img-mission-background.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+    align-items: center;
+}
 
+#banner {
+    height: 15%;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#banner h2 {
+    margin-bottom: .5em;
 }
