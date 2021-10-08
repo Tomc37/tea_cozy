@@ -111,7 +111,7 @@ main {
 #locations {
     height: 500px;
     width: 100%;
-    margin 3em auto 0.5em auto;
+    margin: 1em auto 0.5em auto;
     display: inline-flex;
     flex-direction: column;
     align-items: center;
@@ -138,4 +138,19 @@ main {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+}
+
+#contact {
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+footer {
+    position: relative;
+    top: 70px;
+    text-align: left;
+    margin: 1em 0 1em 20px;
+    font-weight: bold;
 }
